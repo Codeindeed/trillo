@@ -1,0 +1,17 @@
+{
+    "name": "trillo-flex",
+    "version": "1.0.0",
+    "description": "used for flexbox",
+    "main": "index.js",
+    "devDependencies": {
+        "autoprefixer": "^9.7.5",
+        "concat": "^1.0.3",
+        "node-sass": "^4.13.1",
+        "postcss-cli": "^7.1.1"
+    },
+    "scripts": {
+        "compile:sass": "node-sass sass/_main.scss css/style.css"
+    },
+    "author": "Alex favour",
+    "license": "ISC"
+}
